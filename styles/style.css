@@ -1,1 +1,45 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Cornsilk (Body background): #f2fbf2    
+* Dark moss Green (Primary):  #606C38      
+* Earth yellow (Secondary):   #DDA15E    
+* Tiger's Eye (Accent):       #BC6C25
+* Electric indigo(Text):      #601FFF
+*/
+
+.bg-info {
+    background-color: #DDA15E !important; /* Earth yellow for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #606C38;            /* Dark moss Green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #FEFAE0;            /* Cornsilk for text on info button for contrast */
+    background-color: #DDA15E; /* Earth yellow for button background */
+    border-color: #606C38;     /* Dark moss Green for button border */
+}
+
+.btn-primary {
+    color: #FEFAE0;            /* Cornsilk for text */
+    font-size: 150%;
+    background-color: #606C38; /* Dark moss Green for primary button background */
+    border-color: #BC6C25;     /* Tiger's Eye for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #FEFAE0; /* Cornsilk for body background to follow the 60% rule */
+    color: #601FFF; /* Electric indigo for body text color */
+}
+
+.navbar-brand{
+    font-family: 'Caveat', cursive; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
